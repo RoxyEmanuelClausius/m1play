@@ -1,0 +1,58 @@
+[26.353120804] 2023-07-04 13:22:22,983 - INFO - launcher: Starting sanity checks
+[27.328014374] 2023-07-04 13:22:22,984 - INFO - launcher: Checking for Python 3.8+
+[27.328014374] 2023-07-04 13:22:22,984 - INFO - launcher: Checking console encoding
+[27.328014374] 2023-07-04 13:22:22,984 - INFO - launcher: Setting console encoding to UTF-8
+[28.303861618] 2023-07-04 13:22:22,985 - INFO - launcher: Ensuring we're in the right environment
+[39.039850235] 2023-07-04 13:22:22,996 - INFO - launcher: Adding local bins/ folder to path
+[428.464174271] 2023-07-04 13:22:23,386 - INFO - launcher: Required checks passed.
+[429.439783096] 2023-07-04 13:22:23,387 - INFO - launcher: Optional checks passed.
+[429.439783096] 2023-07-04 13:22:23,387 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.7956566810607910] 2023-07-04 13:22:23,753 - WARNING - musicbot.config | In config.py::MainThread(1232), line 235 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.7956566810607910] 2023-07-04 13:22:23,753 - INFO - musicbot.config | In config.py::MainThread(1232), line 250 in run_checks: Using i18n: config/i18n/en.json
+[0.7966322898864746] 2023-07-04 13:22:23,754 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 281 in _setup_logging: Set logging level to INFO
+[0.7976083755493164] 2023-07-04 13:22:23,755 - DEBUG - musicbot.json | In json.py::MainThread(1232), line 9 in __init__: Init JSON obj with config/i18n/en.json
+[0.9557204246520996] 2023-07-04 13:22:23,913 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 105 in __init__: Starting MusicBot release-151221-1-g1df26df
+[0.9566965103149414] 2023-07-04 13:22:23,914 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 111 in __init__: Loaded autoplaylist with 2530 entries
+[1.0835762023925781] 2023-07-04 13:22:24,041 - DEBUG - musicbot.spotify | In spotify.py::MainThread(1232), line 100 in get_token: Created a new access token: {'access_token': 'BQBQDs8IQUTm2_9L12Uq5FGT3HfW3n0dt6g6ca6l895h9KF7jzNxoAhwPbxVPm3x94pW7gDGuYBCq9d9EqiyDUK5WH_GGnWBp-3Q_qTAcFfeVAMeIGE', 'token_type': 'Bearer', 'expires_in': 3600, 'expires_at': 1688455344}
+[1.0835762023925781] 2023-07-04 13:22:24,041 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 145 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[4.3521680831909180] 2023-07-04 13:22:27,309 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 1119 in on_ready: Connection established, ready to go.
+[4.3521680831909180] 2023-07-04 13:22:27,309 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 430 in _cache_app_info: Caching app info
+[4.6610522270202637] 2023-07-04 13:22:27,618 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 924 in _scheck_ensure_env: Ensuring data folders exist
+[4.6620280742645264] 2023-07-04 13:22:27,619 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 939 in _scheck_server_permissions: Checking server permissions
+[4.6620280742645264] 2023-07-04 13:22:27,619 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 943 in _scheck_autoplaylist: Auditing autoplaylist
+[4.6620280742645264] 2023-07-04 13:22:27,619 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 947 in _scheck_configs: Validating config
+[4.6620280742645264] 2023-07-04 13:22:27,619 - DEBUG - musicbot.config | In config.py::MainThread(1232), line 376 in async_validate: Validating options...
+[4.6620280742645264] 2023-07-04 13:22:27,619 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 950 in _scheck_configs: Validating permissions config
+[4.6620280742645264] 2023-07-04 13:22:27,619 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1232), line 112 in async_validate: Validating permissions...
+[4.6620280742645264] 2023-07-04 13:22:27,619 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 1133 in on_ready: Connected: 1124691079598440459/UverMusic (1)#9338
+[4.6630043983459473] 2023-07-04 13:22:27,620 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 1141 in on_ready: Owner:     940460103272914994/roxy.emanuel#0
+
+[4.6630043983459473] 2023-07-04 13:22:27,620 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 1147 in on_ready: Guild List:
+[4.6630043983459473] 2023-07-04 13:22:27,620 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 1151 in on_ready:  - UVERSENI (LOUNGE)
+[4.6639802455902100] 2023-07-04 13:22:27,621 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 1224 in on_ready: Not bound to any text channels
+[4.6639802455902100] 2023-07-04 13:22:27,621 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 1260 in on_ready: Not autojoining any voice channels
+[5250.0947287082672119] 2023-07-04 14:49:53,052 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 3922 in on_message: 940460103272914994/roxy.emanuel#0: m1!p komang
+[5250.7879023551940918] 2023-07-04 14:49:53,745 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 2817 in cmd_summon: Joining UVERSENI (LOUNGE)/roxy.emanuel's VC
+[5250.7888000011444092] 2023-07-04 14:49:53,746 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 660 in on_player_stop: Running on_player_stop
+[5256.2015461921691895] 2023-07-04 14:49:59,159 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 1902 in _cmd_play: {'_type': 'url', 'url': 'ytsearch:komang', 'webpage_url': 'komang', 'original_url': 'komang', 'webpage_url_basename': 'komang', 'webpage_url_domain': None, 'extractor': 'generic', 'extractor_key': 'Generic'}
+[5259.0148875713348389] 2023-07-04 14:50:01,972 - DEBUG - musicbot.entry | In entry.py::MainThread(1232), line 62 in get_ready_future: Created future for None
+[5259.0158879756927490] 2023-07-04 14:50:01,973 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 772 in on_player_entry_added: Running on_player_entry_added
+[5259.0158879756927490] 2023-07-04 14:50:01,973 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 859 in serialize_queue: Serializing queue for 1015251532683431936
+[5259.0168554782867432] 2023-07-04 14:50:01,974 - INFO - musicbot.entry | In entry.py::MainThread(1232), line 434 in _really_download: Download started: https://www.youtube.com/watch?v=o92GwygkaF4
+[5261.0207424163818359] 2023-07-04 14:50:03,978 - DEBUG - musicbot.entry | In entry.py::MainThread(1232), line 62 in get_ready_future: Created future for None
+[5261.3485348224639893] 2023-07-04 14:50:04,306 - INFO - musicbot.entry | In entry.py::MainThread(1232), line 446 in _really_download: Download complete: https://www.youtube.com/watch?v=o92GwygkaF4
+[5261.3495342731475830] 2023-07-04 14:50:04,307 - FFMPEG - musicbot.player | In <string>::MainThread(1232), line 3 in ffmpeg: Creating player with options: -nostdin -vn audio_cache\youtube-o92GwygkaF4-Komang_-_Raim_Laode_Feat_Novia_Bachmid.webm
+[5262.4733109474182129] 2023-07-04 14:50:05,430 - DEBUG - musicbot.player | In player.py::MainThread(1232), line 341 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000138732C51D0> using <discord.voice_client.VoiceClient object at 0x0000013872762850>
+[5262.4753062725067139] 2023-07-04 14:50:05,432 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 563 in on_player_play: Running on_player_play
+[5262.4753062725067139] 2023-07-04 14:50:05,432 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 859 in serialize_queue: Serializing queue for 1015251532683431936
+[5306.5963535308837891] 2023-07-04 14:50:49,553 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 3922 in on_message: 940460103272914994/roxy.emanuel#0: m1!help
+[5337.1711895465850830] 2023-07-04 14:51:20,128 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 3922 in on_message: 940460103272914994/roxy.emanuel#0: m1!help all
+[5454.5615417957305908] 2023-07-04 14:53:17,519 - INFO - musicbot.bot | In bot.py::MainThread(1232), line 3922 in on_message: 940460103272914994/roxy.emanuel#0: m1!help all
+[5490.4160900115966797] 2023-07-04 14:53:53,373 - DEBUG - musicbot.player | In player.py::Thread-3(12484), line 237 in _playback_finished: Deleting file: audio_cache\youtube-o92GwygkaF4-Komang_-_Raim_Laode_Feat_Novia_Bachmid.webm
+[5490.4170870780944824] 2023-07-04 14:53:53,374 - DEBUG - musicbot.player | In player.py::Thread-3(12484), line 244 in _playback_finished: File deleted: audio_cache\youtube-o92GwygkaF4-Komang_-_Raim_Laode_Feat_Novia_Bachmid.webm
+[5491.3727898597717285] 2023-07-04 14:53:54,330 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 664 in on_player_finished_playing: Running on_player_finished_playing
+[5491.8328168392181396] 2023-07-04 14:53:54,790 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 859 in serialize_queue: Serializing queue for 1015251532683431936
+[5491.8338153362274170] 2023-07-04 14:53:54,791 - DEBUG - musicbot.bot | In bot.py::MainThread(1232), line 660 in on_player_stop: Running on_player_stop

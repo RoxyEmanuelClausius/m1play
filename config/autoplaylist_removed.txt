@@ -1,0 +1,6 @@
+# Entry removed Tue Jun 27 19:54:02 2023
+# Reason: [0;31mERROR:[0m [youtube] kMmpRcld1FU: Video unavailable
+https://youtube.com/watch?v=kMmpRcld1FU
+
+################################
+

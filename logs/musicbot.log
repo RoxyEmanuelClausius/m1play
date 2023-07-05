@@ -1,0 +1,25 @@
+[39.894104004] 2023-07-05 19:57:18,418 - INFO - launcher: Starting sanity checks
+[41.862964630] 2023-07-05 19:57:18,420 - INFO - launcher: Checking for Python 3.8+
+[41.862964630] 2023-07-05 19:57:18,420 - INFO - launcher: Checking console encoding
+[42.860269547] 2023-07-05 19:57:18,421 - INFO - launcher: Setting console encoding to UTF-8
+[42.860269547] 2023-07-05 19:57:18,421 - INFO - launcher: Ensuring we're in the right environment
+[43.857097626] 2023-07-05 19:57:18,422 - INFO - launcher: Adding local bins/ folder to path
+[756.871700287] 2023-07-05 19:57:19,135 - INFO - launcher: Required checks passed.
+[756.871700287] 2023-07-05 19:57:19,135 - INFO - launcher: Optional checks passed.
+[756.871700287] 2023-07-05 19:57:19,135 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.7865400314331055] 2023-07-05 19:57:20,165 - WARNING - musicbot.config | In config.py::MainThread(12096), line 235 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.7865400314331055] 2023-07-05 19:57:20,165 - INFO - musicbot.config | In config.py::MainThread(12096), line 250 in run_checks: Using i18n: config/i18n/en.json
+[1.787537336] launcher-INFO: 
+An error has occured reading the config:
+
+  Problem:
+    No bot token was specified in the config.
+
+  Solution:
+    As of v1.9.6_1, you are required to use a Discord bot account.
+
+
+[1.787537336] launcher-INFO: All done.
